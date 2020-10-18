@@ -1,0 +1,7 @@
+ubuntu user:::
+
+first install-> sudo apt-get install npm
+
+step-1:sudo npm install -g sass
+
+run in terminal :-> sass --watch input.scss output.css

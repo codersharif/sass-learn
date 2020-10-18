@@ -1,0 +1,44 @@
+@import'config';
+@import'buttons';
+body{
+  border-radius: $bg_color;
+  color:$color;
+  padding:2px;
+  }
+  
+
+nav{
+  @include set-background($primary-color);
+  
+  ul{
+  
+  color:blue;
+  
+  li{
+  color:black;
+  
+  a:hover{
+  
+  color:red;
+  }
+  }
+  }
+  
+  a:hover{
+    color:red;
+  
+  }
+}  
+  
+.show{
+ color:red;
+
+&-content{
+
+color:set-text-color($primary-color);
+}
+}
+
+
+@import'mobile';
+  

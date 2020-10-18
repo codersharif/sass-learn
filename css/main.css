@@ -1,0 +1,137 @@
+.m-1 {
+  margin: 1rem;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.m-4 {
+  margin: 4rem;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
+
+.p-4 {
+  padding: 4rem;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+.m-5 {
+  margin: 5rem;
+}
+
+.my-5 {
+  margin: 5rem 0;
+}
+
+.p-5 {
+  padding: 5rem;
+}
+
+.py-5 {
+  padding: 5rem 0;
+}
+
+.btn-primary {
+  padding: 1px;
+  font-size: 16px;
+}
+.btn-primary:hover {
+  background: blue;
+}
+
+.btn-primary {
+  background-color: white;
+  color: #333;
+}
+
+body {
+  border-radius: blue;
+  color: #666;
+  padding: 2px;
+}
+
+nav {
+  background-color: #e0ffff;
+  color: #333;
+}
+nav ul {
+  color: blue;
+}
+nav ul li {
+  color: black;
+}
+nav ul li a:hover {
+  color: red;
+}
+nav a:hover {
+  color: red;
+}
+
+.show {
+  color: red;
+}
+.show-content {
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .show {
+    width: 400px;
+  }
+  .show-content {
+    color: red;
+  }
+  .show-content img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
